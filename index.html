@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">Doge and Sound Memory Game</h1>
+        <p>
+          Welcome to the game where you get rewarded by seeing smiley dogs! Repeat back the pattern by pressing buttons. <br>Please choose a difficulty in order to start the game.
+        </p>
+        
+        <button id="startBtn" onclick="startGame()">
+          Start
+        </button>
+        <button id="stopBtn" class="hidden" onclick="stopGame()">
+          Stop
+        </button>
+        
+        <div id = "difficulty">
+          <button id = "easy" onclick="easyMode()">Easy</button>
+          <button id = "medium" onclick="mediumMode()">Medium</button>
+          <button id = "hard" onclick="hardMode()">Hard</button>
+          <br>
+        </div>
+        
+        <div class="slidecontainer" id="sliderNum">
+          <p>Difficulty: <span id="mode"></span>&nbsp&nbsp&nbsp&nbspNumber of Turns: <span id="numButtons"></span></p>
+        </div>
+        
+        <div id = "gameButtonArea">
+          <button id = "button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+          <button id = "button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+          <button id = "button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+          <button id = "button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+          <button id = "button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+          <button id = "button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+        </div>
+        
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    
+  </body>
+</html>
