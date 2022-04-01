@@ -6,7 +6,7 @@ Submitted by: **Aleena Tim**
 
 Time spent: **16** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/trusting-tinted-oviraptor)
+Link to project: https://doge-and-sound-memory-game.glitch.me
 
 ## Required Functionality
 
