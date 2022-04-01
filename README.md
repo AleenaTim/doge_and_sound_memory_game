@@ -7,6 +7,7 @@ Submitted by: **Aleena Tim**
 Time spent: **16** hours spent in total
 
 Link to project: https://doge-and-sound-memory-game.glitch.me
+Link to code: https://glitch.com/edit/#!/doge-and-sound-memory-game
 
 ## Required Functionality
 
