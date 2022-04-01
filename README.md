@@ -49,10 +49,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[https://www.w3schools.com/]
+https://www.w3schools.com/
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[The biggest challenge I had was implementing the different difficulties because I had to reinitialize the array size for pattern and
+The biggest challenge I had was implementing the different difficulties because I had to reinitialize the array size for pattern and
 reflect the difficulty on the console. I also had to hide the buttons when the user starts the game to avoid errors.
 For example, when the user clicks the hard button -- number of turns changes to 15 and I also wanted to display the difficulty and
 number of turns on the console. I used the span HTML element because I was able to output and update the variable from my JS file.
@@ -60,14 +60,14 @@ Initially, I stored the number of turns into a variable and passed it as an argu
 work and no matter what difficulty I switched it to, it always resulted into only 1 turn. Apparently, the syntax I wrote to reinitialize 
 an array size was incorrect so instead I changed it to pattern.length = numTurns. Fortunately, this changed the length and I was able to 
 paste the code into rest of the other game modes. I assume it was incorrect because I've already created the pattern Array object and 
-passing it involves creating a new object and the constructor uses the argument for the size of the array.]
+passing it involves creating a new object and the constructor uses the argument for the size of the array.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+I would like to know how we can use web development to better benefit our community. I think the biggest advantage web development has is improving access to information in order to improve lives and provide education on different topics. I would say that a great example of how the power of web development can connect people is through CodePath's summer program. This gave me and other CodePath applicants the opportunity to learn and build a fun and educational web project. By building platforms and tools that allow people to access, discover and collaborate -- we are able to nurture new ideas, increases sociability and gain access to endless amount of information.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[Initially, I was trying to add dog barks to the button clicks but didn't have enough time. I would also "prettify" the buttons, add a timer
-and more game mode features (example: endless mode to achieve the highest score)]
+Initially, I was trying to add dog barks to the button clicks but didn't have enough time. I would also "prettify" the buttons, add a timer
+and more game mode features (example: endless mode to achieve the highest score)
 
 
 
