@@ -73,7 +73,7 @@ and more game mode features (example: endless mode to achieve the highest score)
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://youtu.be/dauRGLwAFAI
 
 
 ## License
